@@ -1,16 +1,16 @@
 /*
 	Author : Colton Smith
 	Title  : Data Science Engineer
-	Date   : December 2021
 	Email  : colton.smith.ai@gmail.com
 	Github : https://github.com/colton-smith-ai
+	Date   : December 2021
 */
 
 package main
 
 import (
-	"colton-smith-ai/SoftwareEngineering/password-generator/newpass"
 	"fmt"
+	"password-generator/newpass"
 )
 
 func main() {

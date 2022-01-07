@@ -1,3 +1,3 @@
-module colton-smith-ai/SoftwareEngineering/password-generator
+module password-generator
 
 go 1.17
