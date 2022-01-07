@@ -1,5 +1,5 @@
 > Complete list of github markdown emoji markup
-> Refference @ https://gist.github.com/rxaviers/7360908
+>> Refference @ https://gist.github.com/rxaviers/7360908
 
 # People
 
