@@ -1,3 +1,5 @@
+github.com/colton-smith-ai/SoftwareEngineering/watermark v0.0.0-20220107221920-f07fdd383369 h1:yKHOOsXUQn8MmXOHFrJPJ/vX5MqMThSXr5himXx/Mxs=
+github.com/colton-smith-ai/SoftwareEngineering/watermark v0.0.0-20220107221920-f07fdd383369/go.mod h1:YPqNnR8Y7PxM+41yA6aEVpNOfeInEMaNg6iAiY4DCwY=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

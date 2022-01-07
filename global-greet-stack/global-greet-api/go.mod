@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/colton-smith-ai/SoftwareEngineering/watermark v0.0.0-20220107221920-f07fdd383369 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
