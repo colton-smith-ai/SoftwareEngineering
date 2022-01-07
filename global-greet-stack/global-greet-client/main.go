@@ -27,6 +27,9 @@ func main() {
 }
 
 func entrypoint() {
+	// new line buffer
+	simpleio.PrinterLine("")
+
 	// get user input and instantiate user struct
 	client := user.MakeUser()
 
@@ -45,6 +48,9 @@ func entrypoint() {
 		simpleio.Printer(client.Greet(apiGreeting))
 
 	} else {
+		// new line buffer
+		simpleio.PrinterLine("")
+		
 		// notify user their language is unknown
 		simpleio.Printer("We do not have that language in our Database :/")
 
