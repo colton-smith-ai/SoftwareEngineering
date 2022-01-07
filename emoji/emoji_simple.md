@@ -1,4 +1,4 @@
-> Complete list of github markdown emoji markup <br>
+> Simplified list of github markdown emoji markup <br>
 > Refference @ https://gist.github.com/rxaviers/7360908
 
 # People
