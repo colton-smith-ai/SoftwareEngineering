@@ -1,3 +1,3 @@
-module github.com/colton-smith-ai/SoftwareEngineering/tree/mac-uploads/signature
+module github.com/colton-smith-ai/SoftwareEngineering/signature
 
 go 1.17

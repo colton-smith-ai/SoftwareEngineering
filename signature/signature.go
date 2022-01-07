@@ -10,7 +10,7 @@ package signature
 
 import "fmt"
 
-func Signature(date string) (sig string) {
+func Sign(date string) (sig string) {
 	sig = "\nSignature @colton.smith.ai\n" +
 		"\tAuthor : Colton Smith\n" +
 		"\tTitle  : Data Science Engineer\n" +
