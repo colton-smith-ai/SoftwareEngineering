@@ -6,7 +6,7 @@
 	Date   : January 2022
 */
 
-package author_signature
+package signature
 
 import "fmt"
 
