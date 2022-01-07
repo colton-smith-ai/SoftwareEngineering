@@ -1,10 +1,9 @@
 # Author Signature
-:raising_hand:      Colton Smith
-:computer:          Data Science Engineer
-:incoming_envelope: colton.smith.ai@gmail.com
-:octocat:           https://github.com/colton-smith-ai
-:date:              December 2021
-
+> :raising_hand:      Colton Smith <br>
+> :computer:          Data Science Engineer <br>
+> :incoming_envelope: colton.smith.ai@gmail.com <br>
+> :octocat:           https://github.com/colton-smith-ai <br>
+> :date:              December 2021 <br>
 
 # password-generator
 Simple password generator, written entirely in Go, to create secure passwords.
