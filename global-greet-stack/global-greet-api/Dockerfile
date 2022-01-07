@@ -23,7 +23,7 @@ FROM golang:1.17-alpine3.15
 # Go files are coded to use env variable
 # i.e. os.Getenv("API_PORT")
 ENV API_PORT=8010
-ENV DB_CONTAINER_NAME=wg-redis
+ENV DB_CONTAINER_NAME=globalgreet-db
 ENV DB_PORT=6379
 
 # Create /buildApi directory within

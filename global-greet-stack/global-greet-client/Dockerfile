@@ -6,13 +6,13 @@
 # CONTAINERS, (i.e. docker run -it ...)
 
 # Run Containers: $docker run/
-# --name wg-cli/
+# --name globalgreet-client/
 # -it/
 # --rm /
-# --network world-greeting-network/
-# -e API_CONTAINER_NAME=wg-api/
+# --network global-greet-network/
+# -e API_CONTAINER_NAME=globalgreet-api/
 # -e API_CONTAINER_PORT=8010/
-# world-greeting-client
+# global-greet-client
 
 # Base image with Go pre-installed
 # Alpine chosen for its small footprint
@@ -27,10 +27,10 @@ FROM golang:1.17-alpine3.15
 # i.e. os.Getenv("API_CONTAINER_NAME")
 # i.e. os.Getenv("API_CONTAINER_PORT")
 # SPECIFY DIFFERENT ENV VAR VALUES
-# WITH $docker run -e API_CONTAINER_NAME
-# = container-name API_CONTAINER_PORT
-# = new-port-int ...
-ENV API_CONTAINER_NAME=wg-api
+# WITH $docker run/
+# -e API_CONTAINER_NAME=container-name/
+# -e API_CONTAINER_PORT=new-port-int/...
+ENV API_CONTAINER_NAME=globalgreet-api
 ENV API_CONTAINER_PORT=8010
 
 # Create /buildClient directory within

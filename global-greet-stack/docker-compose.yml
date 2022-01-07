@@ -1,4 +1,4 @@
-# docker-compose run --rm --name globalgreet-client client
+# docker-compose run --rm --name gg-client client
 version: '3'
 services:
   api:
@@ -6,17 +6,17 @@ services:
     image: global-greet-api
     container_name: ${API_CONTAINER_NAME}
     environment:
-      - API_PORT=${API_CONTAINER_NAME}
+      - API_PORT=${API_CONTAINER_PORT}
       - DB_CONTAINER_NAME=${DB_CONTAINER_NAME}
       - DB_PORT=${DB_PORT}
     ports:
-      - "8010:${API_CONTAINER_NAME}"
+      - "${LOCAL_HOST_API_PORT}:${API_CONTAINER_PORT}"
     depends_on:
       - database
   client:
     build: ./global-greet-client
     image: global-greet-client
-    container_name: globalgreet-client
+    container_name: ${CLIENT_CONTAINER_NAME}
     environment:
       - API_CONTAINER_NAME=${API_CONTAINER_NAME}
       - API_CONTAINER_PORT=${API_CONTAINER_PORT}
