@@ -29,16 +29,16 @@ over any configuration detail and entire application environment.
       - returns list of available languages to query API
     - POST /greeting
       - adds a new greeting from JSON received in the request body
-    - GET /greeting/<language>
+    - GET /greeting/[language]
       - returns greeting for specified language
   - `$ curl http://localhost:$LOCAL_HOST_API_PORT`
-    - ``` 
+    ``` 
       {
          "about": "Welcome to this API about greetings in various languages.",
          "easterEgg": "There is a hidden endpoint that takes two numbers and adds them together. See if you can solve this MATH problem ;)",
          "help": "This API serves 3 endpoints: 1) GET /greeting = returns list of available languages to query API 2) POST /greeting = adds a new greeting from JSON received in the request body 3) GET /greeting/<language> = returns greeting for specified language"
       }
-      ```
+    ```
 - Client Interface
   - Written in Go
   - Uses command line interface to interact with user
