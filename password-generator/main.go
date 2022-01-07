@@ -1,9 +1,8 @@
 /*
 	Author : Colton Smith
-	Title  : Data Science Engineer
 	Email  : colton.smith.ai@gmail.com
 	Github : https://github.com/colton-smith-ai
-	Date   : December 2021
+	Date   : January 2022
 */
 
 package main

@@ -1,9 +1,8 @@
 /*
 	Author : Colton Smith
-	Title  : Data Science Engineer
 	Email  : colton.smith.ai@gmail.com
 	Github : https://github.com/colton-smith-ai
-	Date   : December 2021
+	Date   : January 2022
 */
 
 package main
@@ -15,10 +14,14 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/colton-smith-ai/SoftwareEngineering/watermark"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
+
+	// @colton.smith.ai
+	watermark.Sign("January 2022")
 
 	// Check connection to database
 	errMessage, err := db.EstablishRedis()

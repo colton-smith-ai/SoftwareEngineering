@@ -1,9 +1,10 @@
-# Author Signature
+# Author
 > :raising_hand:      Colton Smith <br>
 > :computer:          Data Science Engineer <br>
+> :mortar_board:      Carnegie Mellon MISM <br>
 > :incoming_envelope: colton.smith.ai@gmail.com <br>
 > :octocat:           https://github.com/colton-smith-ai <br>
-> :date:              December 2021 <br>
+> :date:              January 2022 <br>
 
 # global-greet-stack
 Simple tech-stack application housing: RESTful API Server, Client Interface,
