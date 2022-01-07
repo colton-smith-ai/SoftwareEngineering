@@ -1,5 +1,5 @@
 > Complete list of github markdown emoji markup <br>
-> Reference @ https://github.com/ikatyang/emoji-cheat-sheet
+> Credit @ https://github.com/ikatyang/emoji-cheat-sheet
 
 # Emoji Complete
 
