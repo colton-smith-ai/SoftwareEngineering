@@ -50,7 +50,7 @@ func entrypoint() {
 	} else {
 		// new line buffer
 		simpleio.PrinterLine("")
-		
+
 		// notify user their language is unknown
 		simpleio.Printer("We do not have that language in our Database :/")
 
